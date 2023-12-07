@@ -17,6 +17,8 @@ git checkout -b nombre_rama
 git checkout nombre_rama_destino
 //traer cambios realizados en otras ramas(ubicarse en rama principal)
 git merge nombre_rama_externa
+//cambiar nombre rama actual
+git branch -M nombre_nueva_rama
 
 //CONEXION GITHUB
 git remote add origin https://github.com/Javi-09/practica.git
