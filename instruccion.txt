@@ -1,0 +1,20 @@
+//CONFIGURACION GENERAL
+git config --global user.name "Scrum Master"
+git config --global user.email "zanjavier9@gmail.com"
+git config --global core.editor "code --wait"
+git config --global core.autocrlf true
+
+//CONFIGURACION REPOSITORIO PC
+//inicializar proyecto git
+git init
+//abrir carpeta con VS code
+code .
+//crear rama
+git checkout -b nombre_rama
+//cambiar de rama
+git checkout nombre_rama_destino
+//traer cambios realizados en otras ramas(ubicarse en rama principal)
+git merge nombre_rama_externa
+
+
+git remote add origin https://github.com/Javi-09/practica.git
