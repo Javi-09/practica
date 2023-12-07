@@ -9,6 +9,8 @@ git config --global core.autocrlf true
 git init
 //abrir carpeta con VS code
 code .
+//verificar rama actual
+git branch
 //crear rama
 git checkout -b nombre_rama
 //cambiar de rama
