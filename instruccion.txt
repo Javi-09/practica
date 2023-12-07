@@ -18,6 +18,8 @@ git checkout nombre_rama_destino
 //traer cambios realizados en otras ramas(ubicarse en rama principal)
 git merge nombre_rama_externa
 
-hola como estas?
-
+//CONEXION GITHUB
 git remote add origin https://github.com/Javi-09/practica.git
+//logearse
+//subir repositorio a GitHub
+git push -u origin main
