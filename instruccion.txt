@@ -25,3 +25,5 @@ git remote add origin https://github.com/Javi-09/practica.git
 //logearse
 //subir repositorio a GitHub
 git push -u origin main
+//clonar repositorio github en PC
+git clone link_repositorio_github
